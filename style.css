@@ -1,0 +1,61 @@
+header {
+    text-align: center;
+    padding: 15px;
+    font-family: "Snell Roundhand";
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+    font-family: "Futura";
+    font-weight: bold;
+    font-size: 25px;
+}
+.news{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "ul ul ul"
+    "students cat-also-learns css"
+    "degrees-vs-radians invention invention";
+}
+article {
+    border: 2px solid black;
+    padding: 25px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-height: 250px;
+}
+.nav-links {
+    grid-area: nav;
+  }
+  
+  .students {
+    grid-area: students;
+  }
+  
+  .cat-also-learns {
+    grid-area: cat-also-learns;
+  }
+  
+  .css {
+    grid-area: css;
+  }
+  
+  .degrees-vs-radians {
+    grid-area: degrees-vs-radians;
+  }
+  
+  .invention {
+    grid-area: invention;
+  }
+  h1{
+    font-style: italic;
+    font-weight: 700;
+  }
